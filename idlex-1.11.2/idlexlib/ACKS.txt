@@ -1,0 +1,9 @@
+
+This file acknowledges those who have helped with solving IdleX issues. 
+
+Monte Milanuk - identifed a bug with TabExtension.py (December 2011)
+John Withers - diagnosed a bug with EventLoop.py  (November 2011)
+Erhan Kudeki - MacOSX toolbar fixes (February 2012)
+Ken Howard - MacOSX "Options" menu issue (March 2012)
+Konsta Tiihonen - TabExtension File->Close bug (April 2012)
+

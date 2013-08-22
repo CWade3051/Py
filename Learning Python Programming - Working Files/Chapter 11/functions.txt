@@ -1,0 +1,13 @@
+Functions
+
+definition: a piece of source code, separate from the larger program,
+that performs a specific task
+
+Reasons to use functions:
+
+1. Reduce complex tasks into simpler tasks
+2. Eliminate duplicate code
+3. Code reuse
+4. Distribute tasks to multiple programmers
+5. Hide implementation details - abstraction
+6. Improves debugging by improving traceability

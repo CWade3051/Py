@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+  <channel>
+    <title>Python News</title>
+    <link>http://www.python.org/</link>
+    <description>Python-related news and announcements.
+      Python is an interpreted, interactive, object-oriented
+      programming language. </description>
+
+    <image>
+      <title>Python logo</title>
+      <url>http://www.python.org/images/python-logo.gif</url>
+      <link>http://www.python.org/</link>
+    </image>
+ 
+    
+      <item>
+	<guid>http://www.python.org/news/index.html#Sat3August20132300-0800</guid>
+	<title>Python 3.4.0 alpha 1 has been released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The first alpha for Python 3.4, <a class="reference external" href="/download/releases/3.4.0/">Python 3.4.0a1,</a> has been released.</p>]]></description>
+	<pubDate>Sat, 3 August 2013, 23:00 -0800</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Thu13June20131143-0400</guid>
+	<title>EuroPython 2014/2015 Conference Team Call for Site Proposals</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The EuroPython Society announced <a class="reference external" href="https://ep2013.europython.eu/blog/2013/05/15/epc20145-call-proposals">the Call for Proposals for EuroPython</a>, to collect proposals from teams volunteering to organize the EuroPython conference in 2014-2015.</p>]]></description>
+	<pubDate>Thu, 13 June 2013, 11:43 -0400</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Wed15May201322300100</guid>
+	<title>Python 3.2.5 and 3.3.2 have been released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p><a class="reference external" href="/download/releases/3.2.5/">Python 3.2.5</a> and <a class="reference external" href="/download/releases/3.3.2/">Python 3.3.2</a> regression fix releases have been released.</p>]]></description>
+	<pubDate>Wed, 15 May 2013, 22:30 +0100</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Wed15May20131100-0600</guid>
+	<title>Python 2.7.5 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p><a class="reference external" href="/download/releases/2.7.5/">Python 2.7.5</a> has been released.</p>]]></description>
+	<pubDate>Wed, 15 May 2013, 11:00 -0600</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Fri10May20131615-0400</guid>
+	<title>PyOhio 2013 Call for Proposals due June 1st</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>PyOhio (July 27-28, 2013, Columbus, OH, USA) has released its Call for Proposals, due June 1.  See <a class="reference external" href="http://pyohio.org/call-for-proposals/">http://pyohio.org/call-for-proposals/</a>.</p>]]></description>
+	<pubDate>Fri, 10 May 2013, 16:15 -0400</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sat6April201322300200</guid>
+	<title>Python 3.2.4 and 3.3.1 have been released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p><a class="reference external" href="/download/releases/3.2.4/">Python 3.2.4</a> and <a class="reference external" href="/download/releases/3.3.1/">Python 3.3.1</a> final have been released.</p>]]></description>
+	<pubDate>Sat, 6 April 2013, 22:30 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sat6April20131100-0500</guid>
+	<title>Python 2.7.4 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p><a class="reference external" href="/download/releases/2.7.4/">Python 2.7.4</a> has been released.</p>]]></description>
+	<pubDate>Sat, 6 April 2013, 11:00 -0500</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Mon25March201311000200</guid>
+	<title>Release candidates for Python 3.2.4 and 3.3.1 have been released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>Release candidates for <a class="reference external" href="/download/releases/3.2.4/">Python 3.2.4</a> and <a class="reference external" href="/download/releases/3.3.1/">Python 3.3.1</a> have been released. Please test!</p>]]></description>
+	<pubDate>Mon, 25 March 2013, 11:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sat23March20131100-0500</guid>
+	<title>A release candidate for Python 2.7.4 has been released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p><a class="reference external" href="/download/releases/2.7.4/">A Release candidate for Python 2.7.4</a> has been released. Please test!</p>]]></description>
+	<pubDate>Sat, 23 March 2013, 11:00 -0500</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Fri22March201321000200</guid>
+	<title>Python trademark dispute resolved!</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The Python Software Foundation thanks the community for their support during our European Union trademark dispute. We have settled the dispute and have now obtained the trademark within the EU, and our opponent has ceased using the Python name for their services. More details are available on the <a class="reference external" href="http://pyfound.blogspot.com/2013/03/python-software-foundation-reaches.html">PSF blog</a>.</p>]]></description>
+	<pubDate>Fri, 22 March 2013, 21:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Thu14February201321000200</guid>
+	<title>Python trademark at risk in Europe: We need your help!</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The Python Software Foundation is requesting the assistance of anyone in the community who works in a company that has a presence in an EU Community Member State. The Python trademark is at risk, more details are available on the <a class="reference external" href="http://pyfound.blogspot.com/2013/02/python-trademark-at-risk-in-europe-we.html">PSF blog</a>. Thanks.</p>]]></description>
+	<pubDate>Thu, 14 February 2013, 21:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Fri25January201321000200</guid>
+	<title>Python wiki server online again after recovery</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The Python wiki server is back online, after an attack on January 5 2013. All passwords were reset, so you will have to use the password recovery function to get a new password. Please see the <a class="reference external" href="http://wiki.python.org/moin/WikiAttack2013">wiki attack description page</a> for more details.</p>]]></description>
+	<pubDate>Fri, 25 January 2013, 21:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Mon7January201320000200</guid>
+	<title>http://wiki.python.org taken down for recovery</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The Python wiki server has been taken offline for recovery operations. Please see the <a class="reference external" href="http://pyfound.blogspot.com/">PSF blog</a> for details and updates.</p>]]></description>
+	<pubDate>Mon, 7 January 2013, 20:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sat29September201218000200</guid>
+	<title>Python 3.3.0 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p><a class="reference external" href="/download/releases/3.3.0/">Python 3.3.0</a> has been released.</p>]]></description>
+	<pubDate>Sat, 29 September 2012, 18:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Mon24Sep201208000200</guid>
+	<title>Third rc for Python 3.3.0 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The third release candidate for Python <a class="reference external" href="/download/releases/3.3.0/">3.3.0</a> has been released for testing.</p>]]></description>
+	<pubDate>Mon, 24 Sep 2012, 08:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Fri14Sep201200450100</guid>
+	<title>Python Software Foundation announces Distinguished Service Award</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The Python Software Foundation announces the creation of the <a class="reference external" href="/community/awards/psf-distinguished-awards/">Distinguished Service Award</a>, with the inaugural honor given posthumously to <a class="reference external" href="http://www.numfocus.org/johnhunter">John Hunter</a>.</p>]]></description>
+	<pubDate>Fri, 14 Sep 2012, 00:45 +0100</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Tue11Sep201200450100</guid>
+	<title>ConFoo conference in Canada, February 25th - March 13th</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p><a class="reference external" href="http://confoo.ca/">ConFoo</a> is a multi technology conference dedicated to web development in Canada which takes place on February 27th - March 1st 2013. We're looking for Python talks and our <a class="reference external" href="http://confoo.ca/en/call-for-papers">call for papers</a> is open.</p>]]></description>
+	<pubDate>Tue, 11 Sep 2012, 00:45 +0100</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sun9Sep201212000200</guid>
+	<title>Second rc for Python 3.3.0 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The second release candidate for Python <a class="reference external" href="/download/releases/3.3.0/">3.3.0</a> has been released for testing.</p>]]></description>
+	<pubDate>Sun, 9 Sep 2012, 12:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sat24Aug201222000200</guid>
+	<title>First rc for Python 3.3.0 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The first release candidate for Python <a class="reference external" href="/download/releases/3.3.0/">3.3.0</a> has been released for testing.</p>]]></description>
+	<pubDate>Sat, 24 Aug 2012, 22:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sun12Aug20121045-0500</guid>
+	<title>Fifth annual pyArkansas conference to be held</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The fifth annual pyArkansas conference will be held on October 27, 2012 in Conway, Arkansas. See <a class="reference external" href="http://www.pyarkansas.org/">http://www.pyarkansas.org/</a> for more details.</p>]]></description>
+	<pubDate>Sun, 12 Aug 2012, 10:45 -0500</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sun12Aug201217000200</guid>
+	<title>Second beta for Python 3.3.0 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The second beta release for Python <a class="reference external" href="/download/releases/3.3.0/">3.3.0</a> has been released for testing.</p>]]></description>
+	<pubDate>Sun, 12 Aug 2012, 17:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Wed27Jun201208000200</guid>
+	<title>First beta for Python 3.3.0 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The first beta release for Python <a class="reference external" href="/download/releases/3.3.0/">3.3.0</a> has been released for testing.</p>]]></description>
+	<pubDate>Wed, 27 Jun 2012, 08:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Thu31May201222000200</guid>
+	<title>Fourth alpha for Python 3.3.0 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The fourth alpha release for Python <a class="reference external" href="/download/releases/3.3.0/">3.3.0</a> has been released for testing.</p>]]></description>
+	<pubDate>Thu, 31 May 2012, 22:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Thu31May201210000200</guid>
+	<title>Request for Proposal: Redesign python.org</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The PSF has published <a class="reference external" href="http://pythonorg-redesign.readthedocs.org/">an RFP for redesigning python.org</a>. We look forward to seeing what the community can produce.</p>]]></description>
+	<pubDate>Thu, 31 May 2012, 10:00 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Fri12May201214510000</guid>
+	<title>PyGotham Deadline for Proposals</title>
+	<description><![CDATA[<!--utf-8--><!--0.7-->
+
+
+
+
+<p>The deadline for proposals for PyGotham II, June 8-9 is May 30. Please submit proposals to the <a class="reference external" href="https://pygotham.org/">pygotham.org site</a>.</p>]]></description>
+	<pubDate>Fri, 12 May 2012, 14:51 +0000</pubDate>
+      </item>
+
+  </channel>
+</rss>

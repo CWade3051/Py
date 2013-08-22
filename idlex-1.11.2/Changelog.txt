@@ -1,0 +1,354 @@
+
+Changelog for IdleX
+
+Version 1.11.2 - 2012-11-02
+
+    * IPyIDLE.py
+        - BUGFIX: Space escaping on Windows 7 now works when running a script.
+        - BUGFIX: Unicode filename support for 2.x series when running a script
+                  from the Editor with F5.
+        - BUGFIX: Call tip window close normally when switched back to regular shell.
+        - BUGFIX: Avoid shell lock-up race condition during restart.
+        - Added PNG support for IPython.display.Image 
+
+    * PastePyShell.py
+        - BUGFIX: More general ps2 prompt handling for IPython pasting.
+        - Workaround for issue1207589.
+
+    * RunSelection.py
+        - Avoid issue16152 when determining the true range of active code with
+          the tokenizer.
+        - Workaround for issue1207589.
+
+    * RightClickMenu.py
+        - Deprecated due to issue1207589.
+
+Version 1.11.1 - 2012-10-10
+
+    * IPyIDLE.py
+        - BUGFIX: Pressing F5 from the editor runs the code when the directory
+                  contains spaces. The path is now space-escaped.
+
+Version 1.11 - 2012-10-03
+
+    * IPyIDLE.py
+        - BUGFIX: Using F5 to run a script containing "input()" no longer
+                  locks the shell as being busy.
+
+Version 1.1 - 2012-10-02
+
+    * IPyIDLE.py
+        - Overhaul of runcode handler for interfacing IPython with
+              ScriptBinding, SubCode, and RunSelection.
+        - Removed need for a temporary directory for storing source code.
+        - BUGFIX: Running with F5 no longer causes file not found error
+                  if kernel parameters are changed without a kernel restart.
+        - BUGFIX: Syntax errors in source code now return IDLE's original
+                  error message, with highlighting of the error.
+        - BUGFIX: Fixed code pickling error caused by IPython's change
+                  to the default handler for code objects.
+        - BUGFIX: Switching from IPython to Python shell now restores
+                  virtual events.
+
+    * RunSelection.py
+        - BUGFIX: Handle implicit line joining.
+        - BUGFIX: Handle try/except/finally blocks
+        - BUGFIX: Pressing F9 on a line with "return" no longer generates
+                  an error.
+        - BUGFIX: Error message line numbers are now aligned with source.
+
+    * SubCode.py
+        - Behavior change - timestamped filename no longer included in
+          the traceback for SubCode execution.
+
+    * ClearWindow.py
+        - Undo now restores color tag information.
+
+    * ZoomFont.py
+        - Consolidate rapid font change events caused by scroll wheel.
+        - BUGFIX: More Python3 workarounds for TCL list for font information.
+
+
+Version 1.0 - 2012-09-11
+
+    * IPyIDLE.py
+        - BUGFIX: SubCodes now work with IPython 0.13
+        - BUGFIX: PIL now works with inline plotting for Python3 (using PIL-py3k)
+        - BUGFIX: F5 to run now works with Python3.
+
+    * ZoomFont.py
+        - BUGFIX: Python3 workaround for font information returned as TCL list
+
+    * extensionManager.py
+        - Modified to work with new import machinery in Python3.3
+
+    * EventLoop.py
+        - Defaults to off
+
+    * General
+        - created idlex2 and idlex3 for launching IdleX
+
+Version 0.9 - 2012-04-13
+
+    * setup.py (NEW)
+        - Optional use of distutils to install IdleX.
+
+    * IPyIDLE.py
+        - BUGFIX: Ctrl+C on raw_input no longer breaks future raw_input calls.
+
+    * ZoomFont.py (NEW)
+        - Change the font size with Ctrl+Scroll Wheel
+        - Menu items for changing font size.
+
+    * EventLoop.py
+        - BUGFIX: IPyIDLE shell restart no longer triggers error in rare cases.
+
+    * TabExtension.py
+        - BUGFIX: File->Close now closes the tab.
+
+Version 0.8 - 2012-03-10
+
+    * IPyIDLE.py (NEW)
+        - IPython 0.12 support in shell
+        - Inline figures with --pylab=inline
+        - ANSI Terminal Color Highlighting
+        - Toggle between IDLE and IPython shell
+
+    * RightClickMenu.py (NEW)
+        - Adds "Cut", "Copy", "Paste", and "Select All" to right-click menu.
+
+    * RunSelection.py
+        - Taggable Regions (NEW)
+        - Updated demos/RunSelection_demo.py
+        - BUGFIX: Better syntax error handling
+
+    * ClearWindow.py
+        - Overhaul of "undo" capability
+
+    * LineNumbers.py
+        - Cooperates with IDLE's CodeContext for text alignment.
+
+    * SubCodeToolBar.py
+        - MacOSX display fixed by adjusting button widths.
+        - BUGFIX: Number processor now excludes isolated periods
+
+    * CodeBrowser.py
+        - Includes line numbers in listing
+        - Right-click of "Code Browser" now shows class and defs with comments
+
+    - Terminal.py
+        - No longer holds reference to history handler. (IPython support)
+        - BUGFIX: No longer cycles history when shell is executing
+
+    - SearchBar.py
+        - BUGFIX: Removed "wrap" flag from Replace All logic.
+
+    * Squeezer.py
+        - Removed right-click menu for "Squeeze current text"
+
+    * PastePyShell.py
+        - Added "Paste from Shell" to right-click menu.
+        - Now handles sys.ps2 and IPython prompts
+        - BUGFIX: Paste Shell (only code) now excludes comments.
+
+    * EventLoop.py
+        - Overhaul of threading logic
+        - BUGFIX: Tkinter shell initialization code now checks for "None"
+        - BUGFIX: IDLE now exits on Wine without error if Eventloop enabled.
+
+Version 0.7 - 2012-02-12
+
+    * MultiLineRun.py (NEW)
+        - Allows pasting of many statements into the shell for execution.
+        - Resolves Issue3559
+
+    * DocViewer.py (NEW)
+        - Shows doc string and help information for an object
+        - Under "Help" menu as "Documentation Viewer"
+
+    * Miscellaneous
+        - Refactored extension loader to prevent import conflicts
+        - IdleX reorganized as a module in "idlexlib"
+
+    * TabExtension.py
+        - Hovering over tab shifters now scrolls the tabs.
+        - Right-click context menu now shows all tabs directly.
+        - Tool-tip's right edge guaranteed to stay on screen. (long path problem)
+
+    * Squeezer.py
+        - Button font now matches shell font
+        - Scroll-wheel buttons pass through to text widget
+        - Remove ANSI terminal color codes from squeezed text
+
+    * SubCode.py
+        - Ctrl+C now interrupts shell from editor
+        - BUGFIX: Raised highlight coloring above subcode coloring
+            Highlighting of subcode markers now works properly
+        - BUGFIX: SubCode syntax error checking handles ValueError
+
+    * SubCodeToolbar.py
+        - Now displays above the Code Context window
+
+    * SearchBar.py
+        - Search parameters are now saved
+        - BUGFIX: Regular Expressions now work with incremental highlighting
+        - BUGFIX: Only wrap around when selected.
+        - BUGFIX: TAB focus cycling works on Windows and Linux
+
+    * TabHighlight.py
+        - BUGFIX: tabs are now highlighted after "undo" operation.
+
+    * PastePyShell.py
+        - BUGFIX: No more errors if clipboard is empty
+
+    * IDLE2HTML.py
+        - Changed menu entry to "Export to HTML"
+
+Version 0.6 - 2011-12-19
+
+    * PersistentHistory.py (NEW)
+        - Saves and restores shell command history across sessions.
+
+    * Miscellaneous
+        - IdleX refactored to start faster.
+        - Fixed IdleConf warnings about default configurations.
+        - "PyShell" references changed to "Shell" in the interface.
+
+    * SubCode.py
+        - Consolidated menu items to a "SubCode" menu
+        - Colors of highlight region and subcode marker adapt to color scheme.
+
+    * LineNumbers.py
+        - Width of line number bar only increases.
+
+    * CodeBrowser.py
+        - Use highlight color scheme for nearest class/def
+
+    * SubCodeToolbar.py
+        - BUGFIX: Toolbar now displays in newly opened tabs
+
+    * TabExtension.py
+        - BUGFIX: no more errors when exiting IdleX
+
+    * idlexManager.py
+        - BUGFIX: "name" not defined for config parser
+
+Version 0.5 - 2011-12-02
+
+    * EditWithIdleX.py (NEW)
+        - Helper Script for Windows
+        - Windows users can add 'Edit with IdleX' to the right-click menu
+
+    * PastePyShell.py (NEW)
+        - Intelligently paste code from PyShell into the Editor (Issue11838)
+
+    * TabHighlght.py (NEW)
+        - Colors \t in the editor to help fix tab/space issues in code.
+
+    * LineNumbers.py
+        - Clicking no longer brings up Go To Line dialog
+
+    * EventLoop.py
+        - BUGFIX: no more memory leak when the Event Loop is enabled
+
+    * idlex.py
+        - Fixed several outstanding IDLE keyset errors with EditorWindow patching
+          (Issue 12387, 4765, 13071, 6739, 5707, 11437)
+        - Removed configuration for extension directory
+        - Restructured IdleX as a module with idlexManager.py
+        - BUGFIX: Use idlex-config-extensions.cfg for loading user settings
+        - BUGFIX: "Use Extension Defaults" now resets keybindings
+
+    * SubCode.py
+        - Import Subcode now uses correct path for relative imports
+        - Workaround an IDLE bug on 3.x where ## markers did not highlight properly - Issue13495
+
+    * SearchBar.py
+        - BUGFIX: "Replace All" now works
+
+    * Demos
+        - Added a TabHighlight demo.
+
+
+Version 0.4 - 2011-11-22
+
+    * RunSelection.py (NEW)
+        - Runs highlighted code or a single line in the
+          editor with F9.
+
+    * Horizontal.py (NEW)
+        - Provides a horizontal scroll bar for the editor.
+        - Toggle under "Windows" menu
+
+    * EventLoop.py
+        - Added PySide and wxPython support
+
+    * SubCode.py
+        - Auto-enable when keyboard commands are given for:
+          "Run Subcode", "Run Subcode and Proceed",
+          "Import Subcode", "Import Subcode and Proceed"
+        - BUGFIX: Import Subcode error on Python 3.x
+        - BUGFIX: Python 2.6 syntax error on Run Subcode
+
+    * SearchBar.py
+        - BUGFIX: "Replace+Find" no longer skips next match
+        - BUGFIX: "Replace" sets selection and cursor to replaced text
+
+    * idlex.py
+        - added About box to Help menu.
+        - Changed extension loading criteria. See source.
+        - Detect extension name collisions for import.
+        - BUGFIX: disable missing extensions to avoid EditorWindow.py errors
+        - BUGFIX: use extension directory for recent version
+
+    * CythonScript.py
+        - Allow for Cython editing when Cython is not installed.
+        - Allow for earlier versions of Cython (without "reload_support")
+        - BUGFIX: Python 2.6 syntax error on Run Cython Script
+
+    * Demos
+        - More GUI Demos (wx and PySide)
+        - Squeezer (NEW)
+        - SubCodeToolbar (NEW)
+        - RunSelection (NEW)
+        - cython_demo.py - fixed term-number offset
+
+    * CodeBrowser.py
+        - BUGFIX: Scripts with no defs and classes no longer causes error
+
+Version 0.3 - 2011-11-15
+
+    * BUGFIX
+        - IDLE launching restored on Windows
+        - run fixIDLE.py
+
+    * idlex.py
+        - saves configuration in own files in .idlerc
+
+    * CenterDialogs.py removed
+        - bug in Python 3.2.2 preventing Open from working
+
+Version 0.2 - 2011-11-13
+
+    * EventLoop.py added
+        - a generic gui event loop driver
+        - replaces idleMPL.py
+
+    * Demo script for GTK, QT4, and TK
+        - Includes SubCode markup for interactive demo
+
+    * CythonScript.py
+        - Added .pyx to first entry of Open/Save dialogs
+        - minor menu changes
+
+    * SearchBar.py
+        - Moved Find options to its own row
+
+    * SubCode.py
+        - Bound Ctrl+F6 to restart shell from Editor
+        - Fixed a highlighting error when typing at subcode beginning
+
+Version 0.1 - 2011-11-08
+
+    * Initial release of IdleX
+
