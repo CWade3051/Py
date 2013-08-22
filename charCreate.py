@@ -1,4 +1,4 @@
-# Character Creator
+# Character Creator written by Charles Wade in August of 2013
 
 # Write a Character Creator program for a role-playing game. The player should be given a pool of 30 points to spend
 # on four attributes: Strength, Health, Wisdom, and Dexterity. The player should be able to spend points from the

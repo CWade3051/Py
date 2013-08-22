@@ -1,3 +1,5 @@
+# Who's Your Daddy Program, Written by Charles Wade in August of 2013
+
 # Write a Who's Your Daddy? program that lets the user enter the name of a male
 # and produces the name of his father. (You can use celebrities, fictional characters,
 # or even historical figures for fun.) Allow the user to add, replace, and delete father-son pairs.
